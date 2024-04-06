@@ -16,6 +16,6 @@ export const Primary: Story = {
         },
     },
     args: {
-        title: 'Button',
+        title: 'دکمه',
     },
 };
