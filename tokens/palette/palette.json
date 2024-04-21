@@ -1,0 +1,930 @@
+{
+  "palette/Light": {
+    "_components": {
+      "switch": {
+        "slideFill": {
+          "value": "#000000",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "knowFillDisabled": {
+          "value": "{grey.100}",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "knobFillEnabled": {
+          "value": "{grey.50}",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "alert": {
+        "success": {
+          "background": {
+            "value": "#edf7ed",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          },
+          "color": {
+            "value": "#1e4620",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          }
+        },
+        "info": {
+          "background": {
+            "value": "#e5f6fd",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          },
+          "color": {
+            "value": "#014361",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "#fff4e5",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          },
+          "color": {
+            "value": "#663c00",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          }
+        },
+        "error": {
+          "background": {
+            "value": "#fdeded",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          },
+          "color": {
+            "value": "#5f2120",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          }
+        }
+      },
+      "chip": {
+        "defaultFocusFill": {
+          "value": "#00000033",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "defaultHoverFill": {
+          "value": "#0000001f",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "defaultCloseFill": {
+          "value": "#000000",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "defaultEnabledBorder": {
+          "value": "{grey.400}",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "backdrop": {
+        "fill": {
+          "value": "#00000080",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "tooltip": {
+        "fill": {
+          "value": "#616161e6",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "snackbar": {
+        "fill": {
+          "value": "#323232",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "rating": {
+        "activeFill": {
+          "value": "#ffb400",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "enabledBorder": {
+          "value": "#0000003b",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "input": {
+        "filled": {
+          "hoverFill": {
+            "value": "#00000017",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          },
+          "enabledFill": {
+            "value": "#0000000f",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          }
+        },
+        "outlined": {
+          "hoverBorder": {
+            "value": "#000000",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          },
+          "enabledBorder": {
+            "value": "#0000003b",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          }
+        },
+        "standard": {
+          "hoverBorder": {
+            "value": "#000000",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          },
+          "enabledBorder": {
+            "value": "#0000006b",
+            "type": "color",
+            "parent": "palette/Light",
+            "description": ""
+          }
+        }
+      },
+      "appBar": {
+        "defaultFill": {
+          "value": "{grey.100}",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "stepper": {
+        "connector": {
+          "value": "{grey.400}",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "breadcrumbs": {
+        "collapseFill": {
+          "value": "{grey.100}",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "avatar": {
+        "fill": {
+          "value": "{grey.400}",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      }
+    },
+    "elevation": {
+      "outlined": {
+        "value": "#e0e0e0",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "divider": {
+      "value": "{grey.300}",
+      "type": "color",
+      "parent": "palette/Light",
+      "description": ""
+    },
+    "background": {
+      "paper-elevation-24": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-23": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-22": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-21": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-20": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-19": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-18": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-17": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-16": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-15": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-14": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-13": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-12": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-11": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-10": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-9": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-8": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-7": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-6": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-5": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-4": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-3": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-2": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-1": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "paper-elevation-0": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "default": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "common": {
+      "white_states": {
+        "outlinedBorder": {
+          "value": "#ffffff80",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#ffffff4d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#ffffff1f",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#ffffff14",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#ffffff0a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "main": {
+          "value": "#ffffff",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "black_states": {
+        "outlinedBorder": {
+          "value": "#00000080",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#0000004d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#0000001f",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#00000014",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#0000000a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "main": {
+          "value": "#000000",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      }
+    },
+    "success": {
+      "_states": {
+        "outlinedBorder": {
+          "value": "#2e7d3280",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#2e7d324d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#2e7d3214",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#2e7d320a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "light": {
+        "value": "{green.500}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "dark": {
+        "value": "{green.900}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "main": {
+        "value": "{green.800}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "info": {
+      "_states": {
+        "outlinedBorder": {
+          "value": "#0288d180",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#0288d14d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#0288d114",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#0288d10a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "light": {
+        "value": "{lightBlue.500}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "dark": {
+        "value": "{lightBlue.900}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "main": {
+        "value": "{lightBlue.700}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "warning": {
+      "_states": {
+        "outlinedBorder": {
+          "value": "#ef6c0080",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#ef6c004d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#ef6c0014",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#ef6c000a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "light": {
+        "value": "{orange.500}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "dark": {
+        "value": "{orange.900}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "main": {
+        "value": "{orange.800}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "error": {
+      "_states": {
+        "outlinedBorder": {
+          "value": "#d32f2f80",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#d32f2f4d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#d32f2f14",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#d32f2f0a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "light": {
+        "value": "{red.400}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "dark": {
+        "value": "{red.800}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "main": {
+        "value": "{red.700}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "action": {
+      "disabledBackground": {
+        "value": "#0000001f",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "disabled": {
+        "value": "#00000061",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "focus": {
+        "value": "#0000001f",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "selected": {
+        "value": "#00000014",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "hover": {
+        "value": "#0000000a",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "active": {
+        "value": "#0000008f",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "secondary": {
+      "_states": {
+        "outlinedBorder": {
+          "value": "#9c27b080",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#9c27b04d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#9c27b01f",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#9c27b014",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#9c27b00a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "light": {
+        "value": "{purple.300}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "dark": {
+        "value": "{purple.700}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "main": {
+        "value": "{purple.500}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "primary": {
+      "_states": {
+        "outlinedBorder": {
+          "value": "#2196f380",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focusVisible": {
+          "value": "#2196f34d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#2196f31f",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#2196f314",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#2196f30a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "light": {
+        "value": "{blue.400}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "dark": {
+        "value": "{blue.600}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "main": {
+        "value": "{blue.500}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "text": {
+      "_states": {
+        "focusVisible": {
+          "value": "#0000004d",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#0000001f",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#00000014",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#0000000a",
+          "type": "color",
+          "parent": "palette/Light",
+          "description": ""
+        }
+      },
+      "disabled": {
+        "value": "{grey.300}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "secondary": {
+        "value": "{grey.500}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "primary": {
+        "value": "{grey.700}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "_native": {
+      "scrollbar-bg": {
+        "value": "{grey.200}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "secondaryDivider": {
+      "value": "{grey.200}",
+      "type": "color",
+      "parent": "palette/Light",
+      "description": ""
+    },
+    "surface": {
+      "secondaryBckground": {
+        "value": "{grey.white}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "primaryBackground": {
+        "value": "{grey.ghostWhite}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    },
+    "icon": {
+      "enable": {
+        "value": "{grey.700}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      },
+      "disable": {
+        "value": "{grey.300}",
+        "type": "color",
+        "parent": "palette/Light",
+        "description": ""
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "palette/Light"
+    ]
+  }
+}
