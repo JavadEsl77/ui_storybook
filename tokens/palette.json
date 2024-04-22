@@ -9,7 +9,7 @@
           "description": ""
         },
         "knowFillDisabled": {
-          "value": "{colors.grey.100}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "parent": "palette/Light",
           "description": ""
@@ -931,7 +931,7 @@
           "description": ""
         },
         "100": {
-          "value": "#fff9c4",
+          "value": "#fff9c5",
           "type": "color",
           "parent": "colors/Mode 1",
           "description": ""
