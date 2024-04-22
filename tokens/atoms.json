@@ -1,6 +1,6 @@
 {
   "atoms/Mode 1": {
-    "cOlors": {
+    "colors": {
       "yellow": {
         "50": {
           "value": "#fffde7",
@@ -1562,7 +1562,7 @@
         }
       }
     },
-    "sIzes": {
+    "sizes": {
       "sm": {
         "value": "0.25rem",
         "type": "dimension",
