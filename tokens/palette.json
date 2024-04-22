@@ -608,7 +608,7 @@
         "description": ""
       },
       "light": {
-        "value": "{colors.orange.500}",
+        "value": "{colors.lightGreen.A700}",
         "type": "color",
         "parent": "palette/Light",
         "description": ""
