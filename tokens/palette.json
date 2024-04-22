@@ -1,5 +1,5 @@
 {
-  "palette/Light": {
+  "palette": {
     "_components": {
       "switch": {
         "slideFill": {
@@ -921,7 +921,7 @@
       }
     }
   },
-  "colors/Mode 1": {
+  "colors": {
     "colors": {
       "yellow": {
         "50": {
@@ -2488,8 +2488,8 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "palette/Light",
-      "colors/Mode 1"
+      "palette",
+      "colors"
     ]
   }
 }
