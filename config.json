@@ -2,11 +2,11 @@
   "source": ["tokens/**/*.json"],
   "platforms": {
     "css": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
+      "transformGroup": "js",
+      "buildPath": "src/build/js/",
       "files": [{
-        "destination": "_variables.css",
-        "format": "css/variables"
+        "destination": "tokens.js",
+        "format": "javascript/es6"
       }]
     }
   }
